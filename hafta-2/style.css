@@ -1,0 +1,31 @@
+/* bu class adına sahip olan etiketler
+    şu stilde olsun
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: #a2b9be;
+  color: azure;
+  padding: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.liste {
+  display: flex;
+  gap: 16px;
+}
+
+.liste-elemani {
+  list-style: none;
+}
+
+.logo {
+  width: 45px;
+  object-fit: contain;
+}
